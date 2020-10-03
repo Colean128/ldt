@@ -33,8 +33,6 @@ fn main() {
                                   if path_raw.is_dir() == true { println!("D {}", bugger); }
                                   else if path_raw.is_file() == true { println!("F {}", bugger); }
                                   else { println!("O {}", bugger); }
-
-
                }
             }
         }
