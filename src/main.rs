@@ -22,8 +22,6 @@ fn main() {
                                    if path_raw.is_dir() == true { println!("D {}", bugger); }
                                    else if path_raw.is_file() == true { println!("F {}", bugger); }
                                    else { println!("O {}", bugger); }
-
-
                } else {           let path_dir_len = dir.len() + 1;
                                   let path_len = path_lossy_string.len();
                                   let path_cut_len = path_len - path_dir_len;
