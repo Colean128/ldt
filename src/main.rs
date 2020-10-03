@@ -7,7 +7,6 @@ fn main() {
        println!("List Directory in Terminal (ldt) by Colean128. Input a directory.")
     } else {
         let dir = &args[1];
-        println!("{}", dir);
         match fs:: read_dir(dir) {
            Err(why) => eprintln!("! {:?}", why.kind()),
            Ok(paths) => for path in paths {
